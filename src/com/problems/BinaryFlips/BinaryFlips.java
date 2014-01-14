@@ -8,7 +8,7 @@ public class BinaryFlips {
 	static int b[];
 	
 	public static void main(String[] args) throws FileNotFoundException {
-		System.setIn(new FileInputStream("D:\\eclipse workspace\\Algorithm\\src\\com\\problems\\BinaryFlips\\input"));
+		System.setIn(new FileInputStream("src/com/problems/BinaryFlips/input"));
 		N = StdIn.readInt();
 		b = new int[N];
 		for (int i = 0; i < N; i++)	
